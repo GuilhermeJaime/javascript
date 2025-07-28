@@ -1,0 +1,100 @@
+body {
+  background-image: linear-gradient(to right, #f0f0f0, #c39090);
+  font: normal 15px Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+
+}
+
+header {
+  color: rgb(13, 6, 6);
+  text-align: center;
+}
+
+section {
+  background: linear-gradient(to right, #417f8d, #468d8c8f);
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgba(107, 100, 100, 0.749);
+  align-items: center;
+
+
+}
+
+footer {
+  color: rgb(22, 20, 20);
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  margin-left: auto;
+  width: auto;
+  height: 400px;
+
+}
+
+div#msg {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+div#foto {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #90a05b;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #2f5d92;
+  outline: none;
+}
+
+input[type="button"] {
+  background-color: #90a05b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="button"]:hover {
+  background-color: #2f5d92;
+  transition: background-color 0.3s;
+}
+
+input[type="radio"] {
+  accent-color: #90a05b;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: accent-color 0.3s;
+}
+
+input[type="radio"]:hover {
+  accent-color: #2f5d92;
+}

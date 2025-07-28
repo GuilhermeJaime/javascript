@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas</title>
+
+    <style>
+      input[type="text"] {
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+
+      input[type="button"] {
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <h1>Sistemas de Multas</h1>
+  Insira a sua nacionalidade: <input type="text" id="nacionalidade" name="nacionalidade">
+  <input type="button" value="Verifique" onclick="verificarNacionalidade()">
+  <div id="res"></div>
+
+
+  <script>
+    function verificarNacionalidade() {
+      var nacionalidade = document.getElementById("nacionalidade").value;
+      var res = document.getElementById("res");
+
+      if (nacionalidade === "Angolana") {
+        res.innerHTML = "Você é angolana, pode passar.";
+      } else if (nacionalidade != "Angolana") {
+        res.innerHTML = "Você é estrangeira, paga multa.";
+      } else if (nacionalidade = "") {
+        res.innerHTML = "Nacionalidade inválida.";
+      }
+    }
+  </script>
+
+  <body>
+
+  </body>
+
+</html>

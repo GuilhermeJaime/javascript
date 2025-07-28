@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Exemplo Aula 10 - JS - Eventos DOM</title>
+    <style>
+      div#area {
+        width: 200px;
+        height: 200px;
+        background-color: #af2626;
+        border: 3px solid #044916;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 20px;
+        box-shadow: 3px 4px #053811;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="area"> Interaja</div>
+
+
+
+
+
+
+    <script>
+      var a = window.document.getElementById('area');
+      a.addEventListener('click', clicar);
+      a.addEventListener('mouseenter', entrar);
+      a.addEventListener('mouseout', sair);
+      function clicar() {
+
+        a.innerText = 'Clicou!';
+        a.style.backgroundColor = '#0f0';
+        a.style.color = '#fff';
+
+      }
+      function entrar() {
+        a.innerText = 'Entrou!';
+        a.style.backgroundColor = '#00f';
+        a.style.color = '#fff';
+
+      }
+      function sair() {
+        a.innerText = 'Saiu!';
+        a.style.backgroundColor = '#af2626';
+        a.style.color = '#fff';
+      }
+
+    </script>
+  </body>
+
+</html>

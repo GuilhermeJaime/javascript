@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+      body {
+        background-color: rgb(149, 195, 195);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(11, 11, 11);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente blanditiis sunt eveniet dignissimos
+      tenetur, omnis deserunt excepturi itaque possimus quaerat officiis non voluptas repellendus quas? Quod fuga sunt
+      quae.</p>
+    <div class="seja">Essa é uma div</div>
+
+    <p id="era">Esse é um parágrafo</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et accusamus earum commodi iusto beatae nulla!
+      Temporibus eum, expedita veniam assumenda dolorem eligendi, quos eaque sunt accusamus repellat in recusandae!</p>
+
+
+    <script>
+      var p1 = window.document.querySelector('p#era');
+      var d = window.document.querySelector('div.seja');
+      p1.style.color = 'red';
+      d.style.color = 'blue';
+    </script>
+
+  </body>
+
+</html>
