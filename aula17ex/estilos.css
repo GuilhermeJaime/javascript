@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: skyblue;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -1px 2px 8px rgba(0, 0, 0, 0.474);
+  ;
+}
+
+article {
+  max-width: 600px;
+  display: block;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.474);
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: white;
+}
+
+input[type="button"] {
+  background-color: blue;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgb(0, 0, 0);
+}
+
+input[type="button"]:active {
+  background-color: blue;
+  transition-duration: 0s;
+  box-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
+
+select {
+  width: 200px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-shadow: -1px 2px 8px rgba(0, 0, 0, 0.474);
+
+}
